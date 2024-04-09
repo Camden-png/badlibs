@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset = "utf-8">
+  <title>BadLibs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="static/css/reset.css" rel="stylesheet" type="text/css"/>
+  <link href="static/css/index.css" rel="stylesheet" type="text/css"/>
+  <link rel="preload" href="static/fonts/DigitalSquiggle.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+  <link rel="preload" href="static/fonts/Handwrittening.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+  <link rel="preload" href="static/fonts/KGPrimaryWhimsy.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+  <link rel="preload" href="static/fonts/PeaxDrawnIcons.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+  <link rel="preload" href="static/fonts/VarelaRound.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+</head>
+<body>
+  <audio id="sfx_lingo_1" preload="auto" src="static/sfx/Lingo_1.wav"></audio>
+  <audio id="sfx_lingo_2" preload="auto" src="static/sfx/Lingo_2.wav"></audio>
+  <audio id="sfx_lingo_3" preload="auto" src="static/sfx/Lingo_3.wav"></audio>
+  <audio id="sfx_lingo_4" preload="auto" src="static/sfx/Lingo_4.wav"></audio>
+  <audio id="sfx_lingo_5" preload="auto" src="static/sfx/Lingo_5.wav"></audio>
+  <audio id="sfx_enter_valid" preload="auto" src="static/sfx/User_Input_Accepted.wav"></audio>
+  <audio id="sfx_enter_invalid" preload="auto" src="static/sfx/User_Input_Not_Accepted.wav"></audio>
+  <audio id="sfx_rattle" preload="auto" src="static/sfx/Trash_Can.wav"></audio>
+  <audio id="sfx_submit_valid" preload="auto" src="static/sfx/Full_Answer_Accepted.wav"></audio>
+  <audio id="sfx_submit_invalid" preload="auto" src="static/sfx/Full_Answer_Not_Accepted.wav"></audio>
+  <audio id="sfx_super_zucc" preload="auto" src="static/sfx/SuperZucc.wav"></audio>
+  <audio id="sfx_scrape" preload="auto" src="static/sfx/Scrape.wav"></audio>
+  <audio id="sfx_flush" preload="auto" src="static/sfx/Toilet_Flush.wav"></audio>
+  <audio id="sfx_punch" preload="auto" src="static/sfx/Swooping_Punch_Scream.wav"></audio>
+  <audio id="sfx_submit_valid_long" preload="auto" src="static/sfx/Full_Answer_Accepted_Long.wav"></audio>
+  <audio id="sfx_creepy" preload="auto" src="static/sfx/Creepy_Ambience.wav"></audio>
+  <audio id="sfx_elevator" preload="auto" src="static/sfx/Elevator.wav"></audio>
+  <audio id="sfx_plush" preload="auto" src="static/sfx/Plush_Blanket.wav"></audio>
+
+  <!-- PAGE 0 -->
+  <div id="page-0">
+    <div id="play-button">START</div>
+  </div>
+
+  <!-- PAGE 1 -->
+  <div id="page-1">
+    <div id="lingo-smile-outer" class="anim-talk">
+      <div id="lingo-smile">
+        <img src="static/images/lingoFace.png">
+      </div>
+    </div>
+    <div id="lingo-hands">
+      <div id="lingo-hand-outer-1-2">
+        <div id="lingo-hand-outer-1">
+          <div id="lingo-hand-1" class="lingo-hand">
+            <img src="static/images/lingoHand.png">
+          </div>
+        </div>
+      </div>
+      <div id="lingo-intro" class="lingo-hand">
+        Oh goody! You're awake... My name is<br>Dr. Lingo (linguistics PHD)
+        and you've found yourself right in my clutches. If you ever so wish
+        to leave, you must prove your "BadLibs" skills.<br>Make me laugh.
+      </div>
+      <div id="lingo-hand-outer-2-2">
+        <div id="lingo-hand-outer-2">
+          <div id="lingo-hand-2" class="lingo-hand">
+            <img src="static/images/lingoHand.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PAGE 2 -->
+  <div id="page-2">
+    <div id="paper-buttons">
+      <div id="paper-outer">
+        <div id="paper" class="anim-breathe">
+          <div id="top">
+            <span>B</span>
+            <span>A</span>
+            <span>D</span>
+            <span>L</span>
+            <span>I</span>
+            <span>B</span>
+            <span>S</span>
+          </div>
+          <div class="line"></div>
+
+          <hr>
+
+          <div class="line">
+            <span>GGJ is a</span>
+            <div class="box noun">
+              <input type="text">
+              <p>Noun</p>
+            </div>
+            <span> about</span>
+            <div class="box verb">
+              <input type="text">
+              <p>Verb; ends in "ing"</p>
+            </div>
+          </div>
+
+          <hr>
+
+          <div class="line">
+            <div class="box noun">
+              <input type="text">
+              <p>Noun; plural</p>
+            </div>
+            <span>. Many</span>
+            <div class="box noun">
+              <input type="text">
+              <p>Noun; plural</p>
+            </div>
+            <span> join from</span>
+          </div>
+
+          <hr>
+
+          <div class="line">
+            <div class="box noun">
+              <input type="text">
+              <p>Noun; place</p>
+            </div>
+            <span>. So keep on</span>
+            <div class="box verb">
+              <input type="text">
+              <p>Verb; ends in "ing"</p>
+            </div>
+            <span>!</span>
+          </div>
+
+          <hr>
+
+          <div class="line">
+            <span>The End... Or is it?</span>
+          </div>
+
+          <hr>
+
+          <div class="line gray">
+            <span>HOW TO PLAY: fill in the boxes with funny words!</span>
+          </div>
+
+          <hr>
+          
+          <div class="line gray">
+            <span>A game by Camden, Grant & Bea =3</span>
+          </div>
+        </div>
+      </div>
+
+      <div id="buttons">
+        <div id="trash-outer">
+          <div id="trash-top" class="trash">
+            <div id="trash-lid-outer-1">
+              <div class="trash-lid">
+                <div class="trash-lid-1"></div>
+                <div class="trash-lid-2"></div>
+                <div class="trash-lid-3"></div>
+              </div>
+            </div>
+
+            <div class="trash-base">
+              <div class="trash-handle-1"></div>
+              <div class="trash-center"></div>
+              <div class="trash-handle-2"></div>
+            </div>
+          </div>
+
+          <div id="trash-under" class="trash">
+            <div id="trash-lid-outer-2">
+              <div class="trash-lid">
+                <div class="trash-lid-1"></div>
+                <div class="trash-lid-2"></div>
+                <div class="trash-lid-3"></div>
+              </div>
+          </div>
+
+            <div class="trash-base">
+              <div class="trash-handle-1"></div>
+              <div class="trash-center"></div>
+              <div class="trash-handle-2"></div>
+            </div>
+          </div>
+        </div>
+
+        <div id="submit-outer">
+          <div id="submit-top" class="submit"></div>
+          <div id="submit-under" class="submit"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="notes-outer">
+      <div id="notes" class="anim-breathe-2">
+        <p>Errors!!!</p>
+        <p id="hider">none rn =)</p>
+        <ul></ul>
+      </div>
+    </div>
+
+    <div id="bathroom-outer">
+      <div id="bathroom">
+        <div id="lingo-angry-outer">
+          <div id="lingo-angry" class="lingo-sitting">
+            <img src="static/images/lingoAngry.png">
+          </div>
+        </div>
+
+        <div id="lingo-frames">
+          <!-- shitty hot fix, creating trigger -->
+          <div id="lingo-trigger-outer">
+            <div id="lingo-trigger"></div>
+          </div>
+          <div id="lingo-sitting-1" class="lingo-sitting">
+            <img src="static/images/lingoSitting1.png">
+          </div>
+          <div id="lingo-sitting-2" class="lingo-sitting">
+            <img src="static/images/lingoSitting2.png">
+          </div>
+          <div id="lingo-dead">
+            <div id="lingo-sitting-3" class="lingo-sitting">
+              <img src="static/images/lingoSitting3.png">
+            </div>
+          </div>
+        </div>
+
+        <div id="toilet-outer">
+          <div id="toilet-top" class="toilet">
+            <div class="toilet-1"></div>
+            <div class="toilet-top">
+              <div class="toilet-top-1"></div>
+              <div class="toilet-top-2"></div>
+            </div>
+            <div class="toilet-2"></div>
+            <div class="toilet-3"></div>
+            <div class="toilet-4"></div>
+          </div>
+
+          <div id="toilet-under" class="toilet">
+            <div class="toilet-1"></div>
+            <div class="toilet-top">
+              <div class="toilet-top-1"></div>
+              <div class="toilet-top-2"></div>
+            </div>
+            <div class="toilet-2"></div>
+            <div class="toilet-3"></div>
+            <div class="toilet-4"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- PAGE 3 -->
+  <div id="page-3">
+    <h1>Thanks for<br>playing!</h1>
+    <div id="credits">
+      <p class="credit"><span>lead design, scripting, art, other SFX & other music by</span> <span class="green">Camden <span class="icon">Q</span></span></p>
+      <p class="credit"><span>lead music & #1 'Lego Enjoyer' by</span> <span class="red">Grant <span class="icon">¤</span></span></p>
+      <p class="credit"><span>lead SFX & audio design by</span> <span class="pink">Bea <span class="icon">â</span></span></p>
+    </div>
+  </div>
+<script src="static/js/script.js"></script>
+</body>
+</html>

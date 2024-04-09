@@ -1,0 +1,31 @@
+<div class="custom-p" style="color: #FF10F0; font-size:24px; margin-bottom:10px">
+  <b>BAD LIBS</b>
+</div>
+<div class="custom-p" style="font-size:20px; text-align:justify; margin-bottom:40px">
+  Crap! The Evil <b>Dr. Lingo</b> (Linguistics P.H.D.) has returned with a most devious invention!
+  He calls it <b>"Bad Libs"</b>, the soul-stealer, for it siphons the very ideas from one's brain!
+  Dr. Lingo claims that he will free you once you make him laugh - but is that true?
+</div>
+<div class="custom-p" style="color: #FF10F0; font-size:24px">
+  <b>CREDITS</b>
+</div>
+<ul class="custom-ul" style="margin-bottom:40px">
+  <li class="custom-p" style="font-size:20px; margin-top:-6px">
+    <span style="color:#70CA2D"><b>Camden</b></span>: <span style="font-size:20px"><em>lead design, scripting, art, voicing Dr. Fucko, other SFX & other music</em></span>
+  </li>
+  <li class="custom-p" style="font-size:20px">
+    <span style="color:red"><b>Grant</b></span>: <span style="font-size:20px"><em>lead music & #1 'Lego Enjoyer'</em></span>
+  </li>
+  <li class="custom-p" style="font-size:20px">
+    <span style="color:#FF5AD2"><b>Bea</b></span>: <span style="font-size:20px"><em>lead SFX & audio design</em></span>
+  </li>
+</ul>
+<div class="custom-p" style="color: #FF10F0; font-size:24px; margin-bottom:10px">
+  <b>THEME</b>
+</div>
+<div class="custom-p" style="font-size:20px; text-align:justify">
+  Made for
+  <b><em>GGJ 2024</em></b>
+  with the theme of
+  <b><em>"Make Me Laugh!"</em></b>
+</div>
